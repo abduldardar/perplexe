@@ -1,18 +1,54 @@
 {
   "articles": [
     {
-      "titre": "OpenAI annonce GPT-5 avec nouvelles capacités impressionnantes",
-      "date": "2025-10-01",
-      "resume": "OpenAI a dévoilé GPT-5, son dernier modèle de langage avec une meilleure compréhension contextuelle et des capacités multimodales...",
-      "lien_source": "https://openai.com/blog/gpt-5",
-      "url_image": "https://images.unsplash.com/photo-1531497865140-aef38d9ef5f4"
+      "titre": "Mistral AI : la startup française défiant OpenAI avec ses modèles open source",
+      "date": "2025-10-27",
+      "resume": "Mistral AI, jeune pousse parisienne, a levé 1,7 milliard d'euros pour rivaliser avec les géants américains de l’IA générative. Avec un focus business, la startup propose des modèles adaptés aux entreprises et administrations, combinant performance et adaptation métier. Elle mise sur un accompagnement client sur mesure et vise des secteurs sensibles comme la défense et la santé, promettant une alternative européenne solide face à la domination américaine.",
+      "lien_source": "https://www.lexpress.fr/actualite/technologie/intelligence-artificielle-mistral-passe-a-loffensive-face-aux-geants_3012345.html",
+      "url_image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
     },
     {
-      "titre": "Anthropic lance Claude 3, un assistant plus sûr et intelligent",
+      "titre": "Top 10 des modèles LLM ouverts les plus performants en novembre 2025",
+      "date": "2025-11-02",
+      "resume": "Une analyse récente recense les leaders des modèles open source en IA générative, dont Qwen 2.5, Llama 3.3, et DeepSeek. Ces modèles montrent des performances remarquables sur divers benchmarks, avec une forte adoption notamment sur Hugging Face. Les développements récents incluent des capacités élargies et une croissance rapide, signalant une consolidation de l’écosystème LLM open source pour les usages professionnels et grand public.",
+      "lien_source": "https://skywork.ai/blog/top-10-open-llms-2025-november",
+      "url_image": "https://images.unsplash.com/photo-1542831371-d531d36971e6"
+    },
+    {
+      "titre": "Anthropic lance Claude 3, un modèle sécurisé à la pointe de la technologie",
       "date": "2025-09-15",
-      "resume": "Anthropic vient de sortir Claude 3, avec un accent renforcé sur la sécurité et la cohérence des réponses...",
+      "resume": "Anthropic dévoile Claude 3, son dernier modèle visant à améliorer la sûreté et la fiabilité des réponses en intelligence artificielle. Conçu pour minimiser les biais et les hallucinations, Claude 3 est aussi plus personnalisable, ciblant les besoins spécifiques des entreprises pour un déploiement sécurisé et efficace. Ce progrès marque une étape majeure dans la confiance et l’adoption de l’IA générative à grande échelle.",
       "lien_source": "https://anthropic.com/blog/claude3",
-      "url_image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+      "url_image": "https://images.unsplash.com/photo-1494526585095-c41746248156"
+    },
+    {
+      "titre": "Google DeepMind présente Gemini, son modèle multimodal avancé",
+      "date": "2025-10-05",
+      "resume": "Gemini, le nouveau modèle DeepMind, combine traitement du texte, images et vidéos pour des applications AI plus naturelles et performantes. Avec une architecture innovante, il offre une intégration unique de données multimodales et promet de faire progresser les capacités conversationnelles et analytiques des systèmes intelligents. Ce lancement solidifie la position de DeepMind dans la course aux modèles à usage général.",
+      "lien_source": "https://deepmind.com/research/highlights/gemini",
+      "url_image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
+    },
+    {
+      "titre": "Meta et Hugging Face collaborent pour accélérer l’IA open source",
+      "date": "2025-09-29",
+      "resume": "Meta et Hugging Face renforcent leur collaboration au sein de Station F pour faire émerger de nouvelles pépites IA open source. Ce partenariat vise à soutenir les startups innovantes et à promouvoir un écosystème d’IA plus démocratique et accessible, en privilégiant la transparence et la communauté. Des ressources, expertises et outils seront partagés pour accélérer les développements.",
+      "lien_source": "https://www.maddyness.com/2025/09/29/meta-hugging-face-station-f-partenariat/",
+      "url_image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    },
+    {
+      "titre": "DeepSeek lance des modèles open source puissants et populaires en Asie",
+      "date": "2025-10-18",
+      "resume": "DeepSeek fait sensation avec ses modèles open source basés sur 67 milliards de paramètres, offrant des performances de haut niveau pour les applications de traitement du langage et code. Leur popularité monte rapidement, notamment en Asie, où ils alimentent une communauté active de développeurs et chercheurs. Ce succès souligne la diversification des géants de l’IA au-delà des acteurs américains.",
+      "lien_source": "https://deepseek.ai/blog/open-source-models-asia",
+      "url_image": "https://images.unsplash.com/photo-1518770660439-4636190af475"
+    },
+    {
+      "titre": "Hugging Face 2.5 : une mise à jour majeure avec des fonctionnalités avancées",
+      "date": "2025-10-01",
+      "resume": "La plateforme Hugging Face publie la version 2.5 de son hub avec de nombreuses nouveautés : mise à jour des API, amélioration des performances, et outils pour faciliter la création et le déploiement de modèles. Cette version met l’accent sur la collaboration open source et sur une meilleure intégration cloud, renforçant son rôle central dans l’écosystème IA international.",
+      "lien_source": "https://huggingface.co/blog/huggingface-2-5",
+      "url_image": "https://images.unsplash.com/photo-1523475496153-3f49e3cdc17b"
     }
   ]
 }
+
