@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Archives - ZenYoTech</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="assets/favicon.ico" />
+<script defer>
+document.addEventListener('DOMContentLoaded', async () => {
+  const container = document.getElementById('archives-container');
+  try {
+    const resp = await fetch('data/articles.json');
+    const data = await resp.json();
+    const sorted = data.articles.sort((a,b) => new Date(b.date) - new Date(a.date));
+
+    let html = '<ul>';
+    sorted.forEach(article => {
+      html += `<li><a href="${article.lien_source}" target="_blank" rel="noopener noreferrer">${article.titre}</a> - ${new Date(article.date).toLocaleDateString('fr-FR')}</li>`;
+    });
+    html += '</ul>';
+    container.innerHTML = html;
+  } catch {
+    container.innerHTML = '<p>Erreur lors du chargement des archives.</p>';
+  }
+});
+</script>
+</head>
+<body>
+<header>
+<nav class="fixed-menu">
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="archives.html" class="active">Archives</a></li>
+    <li><a href="about.html">À propos</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div id="datetime"></div>
+  <button id="theme-toggle" aria-label="Basculer mode clair/sombre">☀️/🌙</button>
+</nav>
+</header>
+<main>
+<h1>Archives des articles</h1>
+<section id="archives-container"></section>
+</main>
+<footer>
+<p>© 2025 ZenYoTech</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

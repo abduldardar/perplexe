@@ -1,0 +1,18 @@
+{
+  "articles": [
+    {
+      "titre": "OpenAI annonce GPT-5 avec nouvelles capacités impressionnantes",
+      "date": "2025-10-01",
+      "resume": "OpenAI a dévoilé GPT-5, son dernier modèle de langage avec une meilleure compréhension contextuelle et des capacités multimodales...",
+      "lien_source": "https://openai.com/blog/gpt-5",
+      "url_image": "https://images.unsplash.com/photo-1531497865140-aef38d9ef5f4"
+    },
+    {
+      "titre": "Anthropic lance Claude 3, un assistant plus sûr et intelligent",
+      "date": "2025-09-15",
+      "resume": "Anthropic vient de sortir Claude 3, avec un accent renforcé sur la sécurité et la cohérence des réponses...",
+      "lien_source": "https://anthropic.com/blog/claude3",
+      "url_image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+    }
+  ]
+}

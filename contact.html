@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact - ZenYoTech</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="assets/favicon.ico" />
+</head>
+<body>
+<header>
+<nav class="fixed-menu">
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="archives.html">Archives</a></li>
+    <li><a href="about.html">À propos</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+  <div id="datetime"></div>
+  <button id="theme-toggle" aria-label="Basculer mode clair/sombre">☀️/🌙</button>
+</nav>
+</header>
+<main>
+<h1>Contactez-nous</h1>
+<form id="contact-form" action="#" method="post" aria-label="Formulaire de contact">
+  <label for="name">Nom :</label>
+  <input type="text" id="name" name="name" required />
+  <label for="email">E-mail :</label>
+  <input type="email" id="email" name="email" required />
+  <label for="message">Message :</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
+  <button type="submit">Envoyer</button>
+</form>
+<p id="form-status" role="alert" aria-live="assertive"></p>
+</main>
+<footer>
+<p>© 2025 ZenYoTech</p>
+</footer>
+<script src="script.js"></script>
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(e){
+  e.preventDefault();
+  const status = document.getElementById('form-status');
+  status.textContent = "Merci pour votre message, nous vous répondrons bientôt.";
+  this.reset();
+});
+</script>
+</body>
+</html>
